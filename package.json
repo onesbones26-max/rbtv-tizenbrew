@@ -1,0 +1,17 @@
+{
+  "name": "rbtv-tizenbrew",
+  "version": "1.0.0",
+  "packageType": "app",
+  "appName": "RBTV Plus 18",
+  "appPath": "app/index.html",
+  "keys": [
+    "MediaPlay",
+    "MediaPause",
+    "MediaStop",
+    "MediaRewind",
+    "MediaFastForward",
+    "Caption",
+    "Info",
+    "Teletext"
+  ]
+}
