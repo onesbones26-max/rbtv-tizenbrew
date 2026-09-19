@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>RBTV Plus</title>
+    <title>RBTV Plus 18</title>
     <style>
         html, body {
             margin: 0;
@@ -20,6 +20,17 @@
     </style>
 </head>
 <body>
-    <iframe src="https://www.rbtvplus18.help/id" allowfullscreen></iframe>
+    <iframe id="webFrame" src="https://www.rbtvplus18.help/id" allowfullscreen></iframe>
+
+    <!-- Script pemetaan tombol remote TV ke tombol Keyboard/Mouse -->
+    <script>
+        window.addEventListener('keydown', function(e) {
+            var iframe = document.getElementById('webFrame');
+            // Meneruskan fokus ke dalam iframe saat tombol remote ditekan
+            if (iframe && iframe.contentWindow) {
+                iframe.focus();
+            }
+        });
+    </script>
 </body>
 </html>
